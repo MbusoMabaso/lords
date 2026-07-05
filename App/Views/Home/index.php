@@ -31,10 +31,18 @@
         <section class="featured">
             <h2 class="section-title">Featured Masterpieces</h2>
             <div class="vehicle-grid">
-                <!-- Vehicle Card Placeholder -->
+                <!-- Vehicle Card -->
                 <div class="vehicle-card">
-                    <a href="/vehicle/porsche-911-turbo-s-2014">
-                        <div class="vehicle-image" style="background-image: url('/assets/images/2014 Porsche 911 Turbo S Cabriolet/718033576_28251144591142527_3433814087900508986_n.jpg');"></div>
+                    <a href="/vehicle/porsche-911-turbo-s-2014" class="carousel-link">
+                        <div class="vehicle-image-carousel">
+                            <div class="carousel-slides">
+                                <div class="carousel-slide" style="background-image: url('/assets/images/2014 Porsche 911 Turbo S Cabriolet/718867897_28251145214475798_7614942564880116612_n.jpg');"></div>
+                                <div class="carousel-slide" style="background-image: url('/assets/images/2014 Porsche 911 Turbo S Cabriolet/718033576_28251144591142527_3433814087900508986_n.jpg');"></div>
+                                <div class="carousel-slide" style="background-image: url('/assets/images/2014 Porsche 911 Turbo S Cabriolet/719351013_28251144927809160_2260112861515726302_n.jpg');"></div>
+                            </div>
+                            <button class="carousel-prev" aria-label="Previous slide">&larr;</button>
+                            <button class="carousel-next" aria-label="Next slide">&rarr;</button>
+                        </div>
                     </a>
                     <div class="vehicle-info">
                         <h3>2014 Porsche 911 Turbo S Cabriolet</h3>
@@ -51,5 +59,43 @@
             <p>&copy; <?php echo date('Y'); ?> Lords Vehicles. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousels = document.querySelectorAll('.vehicle-image-carousel');
+            carousels.forEach(carousel => {
+                const slidesContainer = carousel.querySelector('.carousel-slides');
+                const slides = carousel.querySelectorAll('.carousel-slide');
+                const prevBtn = carousel.querySelector('.carousel-prev');
+                const nextBtn = carousel.querySelector('.carousel-next');
+                const numSlides = slides.length;
+                let currentIndex = 0;
+                if (numSlides <= 1) {
+                    carousel.classList.add('has-one-slide');
+                    return;
+                }
+                const updateCarousel = () => {
+                    const offset = currentIndex * -100;
+                    slidesContainer.style.transform = `translateX(${offset}%)`;
+                };
+                prevBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    currentIndex = (currentIndex === 0) ? numSlides - 1 : currentIndex - 1;
+                    updateCarousel();
+                });
+                nextBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    currentIndex = (currentIndex === numSlides - 1) ? 0 : currentIndex + 1;
+                    updateCarousel();
+                });
+                let autoPlayInterval = setInterval(() => { nextBtn.click(); }, 4000);
+                carousel.addEventListener('mouseenter', () => clearInterval(autoPlayInterval));
+                carousel.addEventListener('mouseleave', () => {
+                    autoPlayInterval = setInterval(() => { nextBtn.click(); }, 4000);
+                });
+            });
+        });
+    </script>
 </body>
 </html>

@@ -41,9 +41,12 @@
                             <option value="silver-spectre">The Silver Spectre</option>
                             <option value="mercedes-amg-a45-2016">Mercedes AMG A45 2016</option>
                             <option value="jaguar-f-type-r-2017">Jaguar F Type R 2017</option>
-                            <option value="porsche-911-turbo-s-2014">Porsche 911 Turbo S 2014</option>
+                            <option value="porsche-911-turbo-s-2017">Porsche 911 Turbo S 2017</option>
                             <option value="bmw-m4-competition-2018">BMW M4 Competition 2018</option>
                             <option value="porsche-911-carrera-4s-2014">Porsche 911 Carrera 4S 2014</option>
+                            <option value="porsche-cayenne-diesel-2017">Porsche Cayenne Diesel 2017</option>
+                            <option value="mustang-mach1-1970">1970 Ford Mustang Mach 1</option>
+                            <option value="rolls-royce-silver-spur-1989">1989 Rolls-Royce Silver Spur II</option>
                             <option value="corvette-stingray-77">1977 Corvette Stingray</option>
                             <option value="nissan-gtr-2014">2014 Nissan GTR</option>
                             <option value="mercedes-sl-500-81">1981 Mercedes SL 500</option>

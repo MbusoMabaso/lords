@@ -147,6 +147,15 @@ body {
     gap: 30px;
 }
 
+@media (max-width: 768px) {
+    .vehicle-grid {
+        grid-template-columns: 1fr;
+    }
+    .vehicle-image-carousel {
+        height: 250px;
+    }
+}
+
 .vehicle-card {
     background-color: var(--darker);
     border: 1px solid #222;

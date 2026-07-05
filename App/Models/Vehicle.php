@@ -61,7 +61,7 @@ class Vehicle extends Model {
                 'spec' => 'LS2 6.0L V8 Restomod | Tremec 6-Speed Precision',
                 'image' => '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
                 'slug' => 'corvette-stingray-77',
-                'category' => 'Modern',
+                'category' => 'Heritage',
                 'gallery' => [
                     '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
                     '/assets/images/1977 Chevrolet corvette stingray/732663403_2714258315613549_2294779883698764090_n.jpg',
@@ -133,6 +133,32 @@ class Vehicle extends Model {
                 ]
             ],
             [
+                'title' => '1970 Ford Mustang Mach 1',
+                'price' => 'R1,700,000',
+                'spec' => '351 Cleveland V8 | EFI Upgrade',
+                'image' => '/assets/images/1970 Ford mustang mach 1/725393723_1545093473680554_6997100395501502856_n.jpg',
+                'slug' => 'mustang-mach1-1970',
+                'category' => 'Heritage',
+                'gallery' => [
+                    '/assets/images/1970 Ford mustang mach 1/725393723_1545093473680554_6997100395501502856_n.jpg',
+                    '/assets/images/1970 Ford mustang mach 1/725678149_2846835648992294_5316960272738129077_n.jpg',
+                    '/assets/images/1970 Ford mustang mach 1/725985391_1317948647164227_5392817434577280434_n.jpg'
+                ]
+            ],
+            [
+                'title' => '1989 Rolls-Royce Silver Spur II',
+                'price' => 'R395,000',
+                'spec' => 'British Luxury Motoring | Classic Saloon',
+                'image' => '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
+                'slug' => 'rolls-royce-silver-spur-1989',
+                'category' => 'Heritage',
+                'gallery' => [
+                    '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
+                    '/assets/images/1989 Rolls-Royce Silver Spur II/703914818_960818500183580_8582087956582053181_n.jpg',
+                    '/assets/images/1989 Rolls-Royce Silver Spur II/703988238_960818616850235_9051760636449365744_n.jpg'
+                ]
+            ],
+            [
                 'title' => '2018 BMW M4 Competition',
                 'price' => 'R1,175,000',
                 'spec' => 'Competition Package | Twin-Turbo Performance',
@@ -146,6 +172,19 @@ class Vehicle extends Model {
                 ]
             ],
             [
+                'title' => '2017 Porsche 911 (991.2) Turbo S',
+                'price' => 'R 3,149,999',
+                'spec' => 'Exclusive Lava Orange | Twin-Turbo Flat-6',
+                'image' => '/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg',
+                'slug' => 'porsche-911-turbo-s-2017',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg',
+                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/716974506_1645136376551172_8742596011284347625_n.jpg',
+                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/717038069_936437986087322_6236742058352800887_n.jpg'
+                ]
+            ],
+            [
                 'title' => '2014 Porsche 911 Carrera 4S',
                 'price' => 'Price on Request',
                 'spec' => 'PDK Gearbox | 4WD Performance',
@@ -156,6 +195,19 @@ class Vehicle extends Model {
                     '/assets/images/Porche 911-1 Carrera 4S auto (2014)/705429307_27504224952497014_7599912416823416626_n.jpg',
                     '/assets/images/Porche 911-1 Carrera 4S auto (2014)/706337016_27504226422496867_1131582987687013370_n.jpg',
                     '/assets/images/Porche 911-1 Carrera 4S auto (2014)/706744775_27504224495830393_4839450225172063808_n.jpg'
+                ]
+            ],
+            [
+                'title' => '2017 Porsche Cayenne Diesel Platinum Edition',
+                'price' => 'Price on Request',
+                'spec' => '3.0 V6 Diesel | Top Spec',
+                'image' => '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719425450_2493268917780333_5008344261992661509_n.jpg',
+                'slug' => 'porsche-cayenne-diesel-2017',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719425450_2493268917780333_5008344261992661509_n.jpg',
+                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719948911_982257381274506_6142501291431957116_n.jpg',
+                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/720361287_987157440694128_5577736774024899701_n.jpg'
                 ]
             ]
         ];
@@ -259,14 +311,22 @@ class Vehicle extends Model {
                             'Experience' => 'Pure Analog Driving'
                         ]
                     ],
-                    'porsche-911-turbo-s-2014' => [
-                        'description' => 'The 2014 Porsche 911 Turbo S is the pinnacle of engineering, combining daily drivability with track-dominating performance. A testament to Porsche craftsmanship.',
+                    'mustang-mach1-1970' => [
+                        'description' => '1970 Ford Mustang Mach 1. Fully restored, bolt-and-nut. Rebuilt 351 Cleveland 4V engine, all-new suspension, brand-new interior and new glass throughout. This is a properly finished restoration, not a project, ready to drive and enjoy.',
                         'specs' => [
-                            'Engine' => 'Twin-Turbo Flat-6',
-                            'Transmission' => 'PDK',
-                            'Drive' => 'AWD',
-                            'Mileage' => '35,000km',
-                            'Status' => 'Accident Free & Warranty'
+                            'Engine' => 'Rebuilt 351 Cleveland 4V',
+                            'Upgrade' => 'EFI upgrade',
+                            'Restoration' => 'Full bolt-and-nut',
+                            'Condition' => 'Excellent, ready to drive'
+                        ]
+                    ],
+                    'rolls-royce-silver-spur-1989' => [
+                        'description' => 'An iconic piece of British luxury motoring. This 1989 Rolls-Royce Silver Spur II presents beautifully in clean condition and offers timeless elegance, presence, and comfort that only a Rolls-Royce can deliver.',
+                        'specs' => [
+                            'Mileage' => '84,000km from new',
+                            'Docs' => 'Original owner’s manuals & Service books included',
+                            'Condition' => 'Clean, well-kept example',
+                            'Type' => 'Classic luxury saloon'
                         ]
                     ],
                     'bmw-m4-competition-2018' => [
@@ -278,14 +338,24 @@ class Vehicle extends Model {
                             'Features' => 'Carbon Fibre Exterior Kit, Harman Kardon Sound, HUD'
                         ]
                     ],
-                    'porsche-911-carrera-4s-2014' => [
-                        'description' => 'A pristine 2014 Porsche 911 Carrera 4S (991-1) in White. Features the lightning-fast PDK gearbox and legendary 4WD handling. Meticulously maintained and in excellent condition.',
+                    'porsche-911-turbo-s-2017' => [
+                        'description' => '2017 Porsche 911 Turbo S in Exclusive Lava Orange (PTS) with Black Leather. Porsche Exclusive Package special order extra\'s include Front Axle Lift, Factory Aerokit, Glass tilt and slide Sunroof, and Extended leather package. Meticulously maintained and still under Porsche motorplan.',
                         'specs' => [
-                            'Engine' => 'Petrol',
-                            'Mileage' => '74,000km',
-                            'Transmission' => 'PDK Gearbox',
-                            'Drive' => '4-Wheel Drive',
-                            'Contact' => 'Fred (083 256 1873)'
+                            'Engine' => 'Twin-Turbo Flat-6',
+                            'Mileage' => '60,500km',
+                            'Interior' => 'Black Leather with Lava Orange stitching',
+                            'Features' => 'Front Axle Lift, Aerokit, Glass Sunroof, Heated/Cooled Seats',
+                            'Status' => 'Under Porsche Motorplan'
+                        ]
+                    ],
+                    'porsche-cayenne-diesel-2017' => [
+                        'description' => '2017 Porsche Cayenne Diesel Platinum Edition in pristine condition. A top-spec, highly refined luxury SUV that balances commanding presence with impressive fuel efficiency. Loaded with premium features.',
+                        'specs' => [
+                            'Engine' => '3.0 V6 Diesel',
+                            'Mileage' => '149,000km',
+                            'Transmission' => '8 Speed Auto',
+                            'Interior' => 'Leather Seats With Alcantara Centres (GTS Spec)',
+                            'Features' => 'Sports Chrono, Adaptive LED, Apple Car Play, Panoramic Sunroof'
                         ]
                     ]
                 ];
