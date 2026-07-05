@@ -1,0 +1,448 @@
+:root {
+    --primary: #d4b47a;
+    --dark: #0a0a0a;
+    --darker: #050505;
+    --light: #f5f5f5;
+    --gray: #888;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: var(--font-body);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    padding: 30px 0;
+    transition: all 0.3s;
+}
+
+.navbar.static {
+    position: relative;
+    background-color: var(--darker);
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: var(--light);
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--primary);
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.display-1 {
+    font-family: var(--font-heading);
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    color: var(--gray);
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
+.btn-primary:hover {
+    background-color: #bda06a;
+    transform: translateY(-3px);
+}
+
+/* Sections */
+.py-5 { padding: 80px 0; }
+.mt-3 { margin-top: 1rem; }
+.mt-5 { margin-top: 3rem; }
+.text-center { text-align: center; }
+.text-gray { color: var(--gray); }
+
+.section-title {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Vehicle Grid */
+.vehicle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.vehicle-card {
+    background-color: var(--darker);
+    border: 1px solid #222;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.vehicle-card:hover {
+    transform: scale(1.02);
+}
+
+.vehicle-image {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.vehicle-info {
+    padding: 25px;
+}
+
+.vehicle-info h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.location {
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.btn-link {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* Vehicle Card Carousel */
+.vehicle-image-carousel {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel-slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 1.5rem;
+    transition: background 0.3s;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+    background: rgba(212, 180, 122, 0.8); /* Using primary color */
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+/* Prevent clicking the link when clicking buttons */
+.carousel-link {
+    display: block;
+    text-decoration: none;
+}
+
+.carousel-prev,
+.carousel-next {
+    pointer-events: auto;
+}
+
+/* Hide buttons if there's only one slide */
+.has-one-slide .carousel-prev,
+.has-one-slide .carousel-next {
+    display: none;
+}
+ */
+.gallery-hero {
+    height: 60vh;
+    width: 100%;
+}
+
+.gallery-hero .main-image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.vehicle-title {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.vehicle-location-large {
+    font-size: 1.25rem;
+    color: var(--gray);
+}
+
+.price-tag {
+    font-size: 2rem;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.spec-item {
+    background: var(--darker);
+    padding: 15px;
+    border: 1px solid #222;
+}
+
+.spec-label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 5px;
+}
+
+.spec-value {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.map-box {
+    height: 300px;
+    background-color: var(--darker);
+    border: 1px solid #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray);
+}
+
+/* Sidebar Agent Card */
+.agent-card {
+    background: var(--darker);
+    padding: 30px;
+    border: 1px solid #222;
+    position: sticky;
+    top: 50px;
+}
+
+.form-input {
+    width: 100%;
+    background: #111;
+    border: 1px solid #333;
+    padding: 12px;
+    color: white;
+    font-family: var(--font-body);
+    margin-bottom: 15px;
+}
+
+.form-input:focus {
+    outline: 1px solid var(--primary);
+}
+
+.w-100 { width: 100%; }
+.mb-4 { margin-bottom: 2rem; }
+
+/* Immersive Gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #222;
+    transition: opacity: 0.3s;
+}
+
+.gallery-item img:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+.footer {
+    padding: 60px 0;
+    border-top: 1px solid #222;
+    text-align: center;
+}
+
+.bg-dark { background-color: var(--dark); }
+.text-light { color: var(--light); }
+
+/* Heritage Page */
+.heritage-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.heritage-text p {
+    font-size: 1.1rem;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.heritage-image img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--primary);
+    padding: 10px;
+    background: var(--darker);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Page */
+.contact-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-container {
+    background: var(--darker);
+    padding: 40px;
+    border: 1px solid #222;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+.success-message {
+    max-width: 600px;
+    margin: 100px auto 0;
+}
