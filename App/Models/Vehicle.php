@@ -56,19 +56,6 @@ class Vehicle extends Model {
                 ]
             ],
             [
-                'title' => '2011 Audi RS5',
-                'price' => 'Price on Request',
-                'spec' => '4.2L V8 Quattro | S tronic Precision',
-                'image' => '/assets/images/2011 Audi rs5/728491032_1027191606452664_7146625296119600678_n.jpg',
-                'slug' => 'audi-rs5-2011',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/2011 Audi rs5/728491032_1027191606452664_7146625296119600678_n.jpg',
-                    '/assets/images/2011 Audi rs5/728653029_942460782181422_1413648466357339075_n.jpg',
-                    '/assets/images/2011 Audi rs5/730731889_1569805408126616_7693824297874912295_n.jpg'
-                ]
-            ],
-            [
                 'title' => 'Mercedes AMG A45 2016',
                 'price' => 'Price on Request',
                 'spec' => '2.0L Turbocharged | AMG Performance',
@@ -95,19 +82,6 @@ class Vehicle extends Model {
                 ]
             ],
             [
-                'title' => '1977 Chevrolet Corvette Stingray',
-                'price' => 'Price on Request',
-                'spec' => 'LS2 6.0L V8 Restomod | Tremec 6-Speed Precision',
-                'image' => '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
-                'slug' => 'corvette-stingray-77',
-                'category' => 'Heritage',
-                'gallery' => [
-                    '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
-                    '/assets/images/1977 Chevrolet corvette stingray/732663403_2714258315613549_2294779883698764090_n.jpg',
-                    '/assets/images/1977 Chevrolet corvette stingray/732733202_878183465330737_6114279744032546006_n.jpg'
-                ]
-            ],
-            [
                 'title' => '2014 Nissan GTR Black Edition',
                 'price' => 'Price on Request',
                 'spec' => 'VR38DETT V6 Twin-Turbo | Pristine Low Mileage',
@@ -131,6 +105,45 @@ class Vehicle extends Model {
                     '/assets/images/2017 Porsche 718 Cayman S PDK/727773552_4612311928999958_1827257494803287929_n.jpg',
                     '/assets/images/2017 Porsche 718 Cayman S PDK/727788077_4612312012333283_6665291926642616079_n.jpg',
                     '/assets/images/2017 Porsche 718 Cayman S PDK/728196347_4612311958999955_7984657632887830714_n.jpg'
+                ]
+            ],
+            [
+                'title' => '2018 BMW M4 Competition',
+                'price' => 'R1,175,000',
+                'spec' => 'Competition Package | Twin-Turbo Performance',
+                'image' => '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
+                'slug' => 'bmw-m4-competition-2018',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
+                    '/assets/images/2018 BMW M4 Competition/706017809_10227553664022281_7346039577727955178_n.jpg',
+                    '/assets/images/2018 BMW M4 Competition/706691316_10227553662062232_2345947597367062768_n.jpg'
+                ]
+            ],
+            [
+                'title' => '2011 Audi RS5',
+                'price' => 'Price on Request',
+                'spec' => '4.2L V8 Quattro | S tronic Precision',
+                'image' => '/assets/images/2011 Audi rs5/728491032_1027191606452664_7146625296119600678_n.jpg',
+                'slug' => 'audi-rs5-2011',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2011 Audi rs5/728491032_1027191606452664_7146625296119600678_n.jpg',
+                    '/assets/images/2011 Audi rs5/728653029_942460782181422_1413648466357339075_n.jpg',
+                    '/assets/images/2011 Audi rs5/730731889_1569805408126616_7693824297874912295_n.jpg'
+                ]
+            ],
+            [
+                'title' => '1977 Chevrolet Corvette Stingray',
+                'price' => 'Price on Request',
+                'spec' => 'LS2 6.0L V8 Restomod | Tremec 6-Speed Precision',
+                'image' => '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
+                'slug' => 'corvette-stingray-77',
+                'category' => 'Heritage',
+                'gallery' => [
+                    '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
+                    '/assets/images/1977 Chevrolet corvette stingray/732663403_2714258315613549_2294779883698764090_n.jpg',
+                    '/assets/images/1977 Chevrolet corvette stingray/732733202_878183465330737_6114279744032546006_n.jpg'
                 ]
             ],
             [
@@ -195,19 +208,6 @@ class Vehicle extends Model {
                     '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
                     '/assets/images/1989 Rolls-Royce Silver Spur II/703914818_960818500183580_8582087956582053181_n.jpg',
                     '/assets/images/1989 Rolls-Royce Silver Spur II/703988238_960818616850235_9051760636449365744_n.jpg'
-                ]
-            ],
-            [
-                'title' => '2018 BMW M4 Competition',
-                'price' => 'R1,175,000',
-                'spec' => 'Competition Package | Twin-Turbo Performance',
-                'image' => '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
-                'slug' => 'bmw-m4-competition-2018',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
-                    '/assets/images/2018 BMW M4 Competition/706017809_10227553664022281_7346039577727955178_n.jpg',
-                    '/assets/images/2018 BMW M4 Competition/706691316_10227553662062232_2345947597367062768_n.jpg'
                 ]
             ]
         ];
@@ -336,6 +336,16 @@ class Vehicle extends Model {
                             'Mileage' => '20,000km',
                             'Wheels' => '20-inch Alloy',
                             'Features' => 'Carbon Fibre Exterior Kit, Harman Kardon Sound, HUD'
+                        ]
+                    ],
+                    'audi-rs5-2011' => [
+                        'description' => 'The Audi RS5 is a masterclass in balanced performance. Powered by a screaming 4.2L naturally aspirated V8 and the legendary Quattro all-wheel-drive system, it offers a visceral connection to the asphalt combined with an interior of uncompromising luxury.',
+                        'specs' => [
+                            'Engine' => '4.2L V8 Naturally Aspirated',
+                            'Power' => '331kW of Raw Power',
+                            'Drive' => 'Quattro All-Wheel Drive',
+                            'Gearbox' => 'S tronic Dual-Clutch',
+                            'Exhaust' => 'Factory Sport Exhaust System'
                         ]
                     ],
                     'porsche-911-turbo-s-2017' => [
