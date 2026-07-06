@@ -60,11 +60,15 @@
                 <aside class="sidebar">
                     <div class="agent-card">
                         <h3>Acquire This Masterpiece</h3>
-                        <form class="inquiry-form mt-3">
-                            <input type="text" placeholder="Your Name" class="form-input">
-                            <input type="email" placeholder="Your Email" class="form-input">
-                            <textarea placeholder="Your Message" class="form-input" rows="5"></textarea>
-                            <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
+                        <div class="contact-actions mt-3">
+                            <a href="https://wa.me/27123456789" class="btn btn-success w-100 mb-2" target="_blank">WhatsApp Us</a>
+                            <a href="tel:+27123456789" class="btn btn-secondary w-100 mb-2">Call Us</a>
+                        </div>
+                        <form action="mailto:info@lordsvehicles.com" method="post" enctype="text/plain" class="inquiry-form mt-3">
+                            <input type="text" name="name" placeholder="Your Name" class="form-input">
+                            <input type="email" name="email" placeholder="Your Email" class="form-input">
+                            <textarea name="message" placeholder="Your Message" class="form-input" rows="5"></textarea>
+                            <button type="submit" class="btn btn-primary w-100">Send Email</button>
                         </form>
                     </div>
                 </aside>
