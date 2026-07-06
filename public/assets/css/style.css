@@ -389,9 +389,10 @@ body {
 
 /* Footer */
 .footer {
-    padding: 60px 0;
+    padding: 20px 0;
     border-top: 1px solid #222;
     text-align: center;
+    font-size: 0.8rem;
 }
 
 .bg-dark { background-color: var(--dark); }

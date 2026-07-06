@@ -19,40 +19,38 @@
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content">
+    <header class="hero-carousel" style="position: relative; height: 100vh; overflow: hidden; display: flex; align-items: center; justify-content: center; text-align: center;">
+        <div class="carousel-slides" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; transition: transform 1s ease-in-out;">
+            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 Porsche 911 (991.2) Turbo S/716974506_1645136376551172_8742596011284347625_n.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 Porsche 911 (991.2) Turbo S/717038069_936437986087322_6236742058352800887_n.jpg'); background-size: cover; background-position: center;"></div>
+        </div>
+        <div class="hero-content" style="position: relative; z-index: 1;">
             <h1 class="display-1">Engineered Perfection.</h1>
             <p class="lead">A curated selection of the world's most prestigious automobiles.</p>
-            <a href="/vehicles" class="btn btn-primary">Explore Collection</a>
+            <a href="/vehicle/porsche-911-turbo-s-2017" class="btn btn-primary">Explore Collection</a>
         </div>
     </header>
 
-    <main class="container py-5">
-        <section class="featured">
-            <h2 class="section-title">Featured Masterpieces</h2>
-            <div class="vehicle-grid">
-                <!-- Vehicle Card -->
-                <div class="vehicle-card">
-                    <a href="/vehicle/porsche-911-turbo-s-2014" class="carousel-link">
-                        <div class="vehicle-image-carousel">
-                            <div class="carousel-slides">
-                                <div class="carousel-slide" style="background-image: url('/assets/images/2014 Porsche 911 Turbo S Cabriolet/718867897_28251145214475798_7614942564880116612_n.jpg');"></div>
-                                <div class="carousel-slide" style="background-image: url('/assets/images/2014 Porsche 911 Turbo S Cabriolet/718033576_28251144591142527_3433814087900508986_n.jpg');"></div>
-                                <div class="carousel-slide" style="background-image: url('/assets/images/2014 Porsche 911 Turbo S Cabriolet/719351013_28251144927809160_2260112861515726302_n.jpg');"></div>
-                            </div>
-                            <button class="carousel-prev" aria-label="Previous slide">&larr;</button>
-                            <button class="carousel-next" aria-label="Next slide">&rarr;</button>
-                        </div>
-                    </a>
-                    <div class="vehicle-info">
-                        <h3>2014 Porsche 911 Turbo S Cabriolet</h3>
-                        <p class="price">Price on Request</p>
-                        <p class="location">Twin-Turbo Flat-6 | AWD Performance</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousel = document.querySelector('.hero-carousel');
+            const slidesContainer = carousel.querySelector('.carousel-slides');
+            const slides = carousel.querySelectorAll('.carousel-slide');
+            let currentIndex = 0;
+            const numSlides = slides.length;
+
+            const updateCarousel = () => {
+                const offset = currentIndex * -100;
+                slidesContainer.style.transform = `translateX(${offset}%)`;
+            };
+
+            setInterval(() => {
+                currentIndex = (currentIndex === numSlides - 1) ? 0 : currentIndex + 1;
+                updateCarousel();
+            }, 5000);
+        });
+    </script>
 
     <footer class="footer">
         <div class="container">

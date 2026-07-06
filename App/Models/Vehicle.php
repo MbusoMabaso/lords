@@ -17,6 +17,45 @@ class Vehicle extends Model {
         // Mock data for a high-end experience
         return [
             [
+                'title' => '2017 Porsche 911 (991.2) Turbo S',
+                'price' => 'R 3,149,999',
+                'spec' => 'Exclusive Lava Orange | Twin-Turbo Flat-6',
+                'image' => '/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg',
+                'slug' => 'porsche-911-turbo-s-2017',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg',
+                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/716974506_1645136376551172_8742596011284347625_n.jpg',
+                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/717038069_936437986087322_6236742058352800887_n.jpg'
+                ]
+            ],
+            [
+                'title' => '2014 Porsche 911 Carrera 4S',
+                'price' => 'Price on Request',
+                'spec' => 'PDK Gearbox | 4WD Performance',
+                'image' => '/assets/images/Porche 911-1 Carrera 4S auto (2014)/705429307_27504224952497014_7599912416823416626_n.jpg',
+                'slug' => 'porsche-911-carrera-4s-2014',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/705429307_27504224952497014_7599912416823416626_n.jpg',
+                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/706337016_27504226422496867_1131582987687013370_n.jpg',
+                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/706744775_27504224495830393_4839450225172063808_n.jpg'
+                ]
+            ],
+            [
+                'title' => '2017 Porsche Cayenne Diesel Platinum Edition',
+                'price' => 'Price on Request',
+                'spec' => '3.0 V6 Diesel | Top Spec',
+                'image' => '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719425450_2493268917780333_5008344261992661509_n.jpg',
+                'slug' => 'porsche-cayenne-diesel-2017',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719425450_2493268917780333_5008344261992661509_n.jpg',
+                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719948911_982257381274506_6142501291431957116_n.jpg',
+                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/720361287_987157440694128_5577736774024899701_n.jpg'
+                ]
+            ],
+            [
                 'title' => '2011 Audi RS5',
                 'price' => 'Price on Request',
                 'spec' => '4.2L V8 Quattro | S tronic Precision',
@@ -170,45 +209,6 @@ class Vehicle extends Model {
                     '/assets/images/2018 BMW M4 Competition/706017809_10227553664022281_7346039577727955178_n.jpg',
                     '/assets/images/2018 BMW M4 Competition/706691316_10227553662062232_2345947597367062768_n.jpg'
                 ]
-            ],
-            [
-                'title' => '2017 Porsche 911 (991.2) Turbo S',
-                'price' => 'R 3,149,999',
-                'spec' => 'Exclusive Lava Orange | Twin-Turbo Flat-6',
-                'image' => '/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg',
-                'slug' => 'porsche-911-turbo-s-2017',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg',
-                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/716974506_1645136376551172_8742596011284347625_n.jpg',
-                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/717038069_936437986087322_6236742058352800887_n.jpg'
-                ]
-            ],
-            [
-                'title' => '2014 Porsche 911 Carrera 4S',
-                'price' => 'Price on Request',
-                'spec' => 'PDK Gearbox | 4WD Performance',
-                'image' => '/assets/images/Porche 911-1 Carrera 4S auto (2014)/705429307_27504224952497014_7599912416823416626_n.jpg',
-                'slug' => 'porsche-911-carrera-4s-2014',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/705429307_27504224952497014_7599912416823416626_n.jpg',
-                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/706337016_27504226422496867_1131582987687013370_n.jpg',
-                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/706744775_27504224495830393_4839450225172063808_n.jpg'
-                ]
-            ],
-            [
-                'title' => '2017 Porsche Cayenne Diesel Platinum Edition',
-                'price' => 'Price on Request',
-                'spec' => '3.0 V6 Diesel | Top Spec',
-                'image' => '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719425450_2493268917780333_5008344261992661509_n.jpg',
-                'slug' => 'porsche-cayenne-diesel-2017',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719425450_2493268917780333_5008344261992661509_n.jpg',
-                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719948911_982257381274506_6142501291431957116_n.jpg',
-                    '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/720361287_987157440694128_5577736774024899701_n.jpg'
-                ]
             ]
         ];
     }
@@ -348,6 +348,16 @@ class Vehicle extends Model {
                             'Status' => 'Under Porsche Motorplan'
                         ]
                     ],
+                    'porsche-911-carrera-4s-2014' => [
+                        'description' => 'The 2014 Porsche 911 Carrera 4S (991) combines the iconic silhouette of the 911 with the advanced capability of Porsche’s all-wheel-drive system. This model delivers a perfect blend of everyday usability and engaging performance, featuring a responsive naturally aspirated engine and the lightning-fast PDK gearbox.',
+                        'specs' => [
+                            'Engine' => '3.8L Flat-6 Naturally Aspirated',
+                            'Drive' => 'Porsche Traction Management (PTM) AWD',
+                            'Transmission' => '7-Speed PDK Dual-Clutch',
+                            'Handling' => 'Porsche Active Suspension Management (PASM)',
+                            'Experience' => 'Classic 911 Sport-Luxury'
+                        ]
+                    ],
                     'porsche-cayenne-diesel-2017' => [
                         'description' => '2017 Porsche Cayenne Diesel Platinum Edition in pristine condition. A top-spec, highly refined luxury SUV that balances commanding presence with impressive fuel efficiency. Loaded with premium features.',
                         'specs' => [
@@ -365,11 +375,6 @@ class Vehicle extends Model {
                     $vehicle['specs'] = $details[$slug]['specs'];
                 }
 
-                $vehicle['gallery'] = [
-                    'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80',
-                    'https://images.unsplash.com/photo-1544636331-276977786e62?auto=format&fit=crop&w=1200&q=80',
-                    'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80'
-                ];
                 return $vehicle;
             }
         }
