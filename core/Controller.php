@@ -11,7 +11,7 @@ abstract class Controller {
 
     protected function render($view, $args = []) {
         extract($args, EXTR_SKIP);
-        $file = "../App/Views/$view.php";
+        $file = dirname(__DIR__) . "/App/Views/$view.php";
         if (is_readable($file)) {
             require $file;
         } else {
