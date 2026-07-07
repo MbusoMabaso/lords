@@ -16,6 +16,7 @@ class Vehicle extends Model {
 
         // Mock data for a high-end experience
         return [
+            // Row 1
             [
                 'title' => '2017 Porsche 911 (991.2) Turbo S',
                 'price' => 'R 3,149,999',
@@ -55,6 +56,34 @@ class Vehicle extends Model {
                     '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/720361287_987157440694128_5577736774024899701_n.jpg'
                 ]
             ],
+            // Row 2
+            [
+                'title' => '2018 BMW M4 Competition',
+                'price' => 'R1,175,000',
+                'spec' => 'Competition Package | Twin-Turbo Performance',
+                'image' => '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
+                'slug' => 'bmw-m4-competition-2018',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
+                    '/assets/images/2018 BMW M4 Competition/706017809_10227553664022281_7346039577727955178_n.jpg',
+                    '/assets/images/2018 BMW M4 Competition/706691316_10227553662062232_2345947597367062768_n.jpg'
+                ]
+            ],
+            [
+                'title' => '2017 Porsche 718 Cayman S PDK',
+                'price' => 'Price on Request',
+                'spec' => 'Mid-Engine Precision | PDK Gearbox',
+                'image' => '/assets/images/2017 Porsche 718 Cayman S PDK/727773552_4612311928999958_1827257494803287929_n.jpg',
+                'slug' => 'porsche-718-cayman-s',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2017 Porsche 718 Cayman S PDK/727773552_4612311928999958_1827257494803287929_n.jpg',
+                    '/assets/images/2017 Porsche 718 Cayman S PDK/727788077_4612312012333283_6665291926642616079_n.jpg',
+                    '/assets/images/2017 Porsche 718 Cayman S PDK/728196347_4612311958999955_7984657632887830714_n.jpg'
+                ]
+            ],
+            // Row 3
             [
                 'title' => 'Mercedes AMG A45 2016',
                 'price' => 'Price on Request',
@@ -95,32 +124,6 @@ class Vehicle extends Model {
                 ]
             ],
             [
-                'title' => '2017 Porsche 718 Cayman S PDK',
-                'price' => 'Price on Request',
-                'spec' => 'Mid-Engine Precision | PDK Gearbox',
-                'image' => '/assets/images/2017 Porsche 718 Cayman S PDK/727773552_4612311928999958_1827257494803287929_n.jpg',
-                'slug' => 'porsche-718-cayman-s',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/2017 Porsche 718 Cayman S PDK/727773552_4612311928999958_1827257494803287929_n.jpg',
-                    '/assets/images/2017 Porsche 718 Cayman S PDK/727788077_4612312012333283_6665291926642616079_n.jpg',
-                    '/assets/images/2017 Porsche 718 Cayman S PDK/728196347_4612311958999955_7984657632887830714_n.jpg'
-                ]
-            ],
-            [
-                'title' => '2018 BMW M4 Competition',
-                'price' => 'R1,175,000',
-                'spec' => 'Competition Package | Twin-Turbo Performance',
-                'image' => '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
-                'slug' => 'bmw-m4-competition-2018',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
-                    '/assets/images/2018 BMW M4 Competition/706017809_10227553664022281_7346039577727955178_n.jpg',
-                    '/assets/images/2018 BMW M4 Competition/706691316_10227553662062232_2345947597367062768_n.jpg'
-                ]
-            ],
-            [
                 'title' => '2011 Audi RS5',
                 'price' => 'Price on Request',
                 'spec' => '4.2L V8 Quattro | S tronic Precision',
@@ -133,6 +136,7 @@ class Vehicle extends Model {
                     '/assets/images/2011 Audi rs5/730731889_1569805408126616_7693824297874912295_n.jpg'
                 ]
             ],
+            // Heritage
             [
                 'title' => '1977 Chevrolet Corvette Stingray',
                 'price' => 'Price on Request',
@@ -212,182 +216,4 @@ class Vehicle extends Model {
             ]
         ];
     }
-
-    public static function findBySlug($slug) {
-        $all = static::getAll();
-        foreach ($all as $vehicle) {
-            if ($vehicle['slug'] === $slug) {
-
-                // Vehicle-specific high-end narratives
-                $details = [
-                    'audi-rs5-2011' => [
-                        'description' => 'The Audi RS5 is a masterclass in balanced performance. Powered by a screaming 4.2L naturally aspirated V8 and the legendary Quattro all-wheel-drive system, it offers a visceral connection to the asphalt combined with an interior of uncompromising luxury.',
-                        'specs' => [
-                            'Engine' => '4.2L V8 Naturally Aspirated',
-                            'Power' => '331kW of Raw Power',
-                            'Drive' => 'Quattro All-Wheel Drive',
-                            'Gearbox' => 'S tronic Dual-Clutch',
-                            'Exhaust' => 'Factory Sport Exhaust System'
-                        ]
-                    ],
-                    'mercedes-amg-a45-2016' => [
-                        'description' => 'The Mercedes-AMG A45 is the ultimate expression of hot-hatch performance. Combining compact agility with explosive turbocharged power, it delivers an adrenaline-fueled driving experience that challenges much larger machines.',
-                        'specs' => [
-                            'Engine' => '2.0L Turbocharged 4-Cylinder',
-                            'Power' => '375hp - 416hp',
-                            'Drive' => '4MATIC All-Wheel Drive',
-                            'Gearbox' => '7-Speed Dual-Clutch',
-                            'Performance' => 'AMG Dynamics'
-                        ]
-                    ],
-                    'jaguar-f-type-r-2017' => [
-                        'description' => 'A breathtaking fusion of elegance and raw power. This 2017 Jaguar F Type R Coupe, finished in stunning Pearl White, is an AWD masterpiece. With its 5.0L V8 Supercharged engine delivering 405kW (550hp), it offers an exhilarating driving experience complemented by premium features like carbon ceramic brakes, Project 7 mag wheels, and a luxurious interior.',
-                        'specs' => [
-                            'Engine' => '5.0L V8 Supercharged',
-                            'Power' => '405kW (550hp)',
-                            'Torque' => '680Nm',
-                            'Transmission' => '8-speed ZF Gearbox',
-                            'Mileage' => '86,000km',
-                            'Features' => 'Carbon Ceramic Brakes | Project 7 Mag Wheels'
-                        ]
-                    ],
-                    'corvette-stingray-77' => [
-                        'description' => 'A legendary American icon reborn. This frame-off restoration blends the aggressive, timeless curves of the 1977 Stingray with the brutal efficiency of a modern LS2 heart. It is a bridge between two eras of muscle.',
-                        'specs' => [
-                            'Engine' => 'LS2 6.0L V8 Restomod',
-                            'Transmission' => 'Tremec 6-Speed Manual',
-                            'Restoration' => 'Full Frame-Off Rebuild',
-                            'Presence' => 'Classic Corvette Aesthetic',
-                            'Performance' => 'Modern Powertrain Reliability'
-                        ]
-                    ],
-                    'nissan-gtr-2014' => [
-                        'description' => 'Known as Godzilla, the GTR Black Edition is a masterclass in all-wheel-drive precision. This specimen, with its exceptionally low mileage, represents the peak of Japanese engineering and street-legal dominance.',
-                        'specs' => [
-                            'Engine' => 'VR38DETT V6 Twin-Turbo',
-                            'Mileage' => '48,000km Pristine',
-                            'Drive' => 'ATTESA E-TS AWD',
-                            'Trim' => 'Black Edition Luxury',
-                            'Performance' => 'Precision-Tuned Handling'
-                        ]
-                    ],
-                    'porsche-718-cayman-s' => [
-                        'description' => 'The 718 Cayman S is a masterclass in balance and agility. With its mid-engine layout and the lightning-fast PDK gearbox, it offers a surgical driving experience that is as rewarding on the track as it is exhilarating on the open road.',
-                        'specs' => [
-                            'Engine' => 'Flat-Four Turbocharged',
-                            'Transmission' => 'PDK Dual-Clutch',
-                            'Layout' => 'Mid-Engine RWD',
-                            'Handling' => 'Dynamic Chassis Control',
-                            'Aesthetic' => 'Sleek Aerodynamic Silhouette'
-                        ]
-                    ],
-                    'mercedes-w123-200e' => [
-                        'description' => 'A beacon of reliability and understated luxury. The W123 remains the gold standard of the classic Mercedes-Benz era, offering a serene cabin experience and an indomitable mechanical spirit. This 200e manual exemplifies the purity of the driving experience.',
-                        'specs' => [
-                            'Engine' => '2.0L Inline-Four',
-                            'Transmission' => 'Precision 4-Speed Manual',
-                            'Condition' => 'Pristine Heritage',
-                            'Interior' => 'Classic MB-Tex / Leather',
-                            'Heritage' => 'The Legend of Reliability'
-                        ]
-                    ],
-                    'mercedes-sl-500-81' => [
-                        'description' => 'The R107 SL is the definitive expression of the jet-set lifestyle. This 1981 Silver Icon blends effortless open-top cruising with an imposing presence that has never gone out of style.',
-                        'specs' => [
-                            'Chassis' => 'R107 Classic',
-                            'Drive' => 'Left-Hand Drive (LHD)',
-                            'Exterior' => 'Classic Silver Metallic',
-                            'Tops' => 'Hard Top & Soft Top Included',
-                            'Status' => 'Timeless Luxury Icon'
-                        ]
-                    ],
-                    'cortina-mk3' => [
-                        'description' => 'A nostalgic journey back to the 70s. The Cortina Mk3 is more than just a car; it is a cultural touchstone. This 2.5L Straight-Six example provides a visceral, analog connection to the road that is missing in the modern world.',
-                        'specs' => [
-                            'Engine' => '2.5L Straight-Six',
-                            'Era' => '1970s British Classic',
-                            'Character' => 'Period-Correct Heritage',
-                            'Condition' => 'Well-Maintained Daily',
-                            'Experience' => 'Pure Analog Driving'
-                        ]
-                    ],
-                    'mustang-mach1-1970' => [
-                        'description' => '1970 Ford Mustang Mach 1. Fully restored, bolt-and-nut. Rebuilt 351 Cleveland 4V engine, all-new suspension, brand-new interior and new glass throughout. This is a properly finished restoration, not a project, ready to drive and enjoy.',
-                        'specs' => [
-                            'Engine' => 'Rebuilt 351 Cleveland 4V',
-                            'Upgrade' => 'EFI upgrade',
-                            'Restoration' => 'Full bolt-and-nut',
-                            'Condition' => 'Excellent, ready to drive'
-                        ]
-                    ],
-                    'rolls-royce-silver-spur-1989' => [
-                        'description' => 'An iconic piece of British luxury motoring. This 1989 Rolls-Royce Silver Spur II presents beautifully in clean condition and offers timeless elegance, presence, and comfort that only a Rolls-Royce can deliver.',
-                        'specs' => [
-                            'Mileage' => '84,000km from new',
-                            'Docs' => 'Original owner’s manuals & Service books included',
-                            'Condition' => 'Clean, well-kept example',
-                            'Type' => 'Classic luxury saloon'
-                        ]
-                    ],
-                    'bmw-m4-competition-2018' => [
-                        'description' => 'Meticulously maintained F82 M4 Competition with very low mileage. Features the full Competition Package, extensive carbon fiber accents, and a comprehensive suite of premium interior options.',
-                        'specs' => [
-                            'Engine' => 'Twin-Turbo Inline-6',
-                            'Mileage' => '20,000km',
-                            'Wheels' => '20-inch Alloy',
-                            'Features' => 'Carbon Fibre Exterior Kit, Harman Kardon Sound, HUD'
-                        ]
-                    ],
-                    'audi-rs5-2011' => [
-                        'description' => 'The Audi RS5 is a masterclass in balanced performance. Powered by a screaming 4.2L naturally aspirated V8 and the legendary Quattro all-wheel-drive system, it offers a visceral connection to the asphalt combined with an interior of uncompromising luxury.',
-                        'specs' => [
-                            'Engine' => '4.2L V8 Naturally Aspirated',
-                            'Power' => '331kW of Raw Power',
-                            'Drive' => 'Quattro All-Wheel Drive',
-                            'Gearbox' => 'S tronic Dual-Clutch',
-                            'Exhaust' => 'Factory Sport Exhaust System'
-                        ]
-                    ],
-                    'porsche-911-turbo-s-2017' => [
-                        'description' => '2017 Porsche 911 Turbo S in Exclusive Lava Orange (PTS) with Black Leather. Porsche Exclusive Package special order extra\'s include Front Axle Lift, Factory Aerokit, Glass tilt and slide Sunroof, and Extended leather package. Meticulously maintained and still under Porsche motorplan.',
-                        'specs' => [
-                            'Engine' => 'Twin-Turbo Flat-6',
-                            'Mileage' => '60,500km',
-                            'Interior' => 'Black Leather with Lava Orange stitching',
-                            'Features' => 'Front Axle Lift, Aerokit, Glass Sunroof, Heated/Cooled Seats',
-                            'Status' => 'Under Porsche Motorplan'
-                        ]
-                    ],
-                    'porsche-911-carrera-4s-2014' => [
-                        'description' => 'The 2014 Porsche 911 Carrera 4S (991) combines the iconic silhouette of the 911 with the advanced capability of Porsche’s all-wheel-drive system. This model delivers a perfect blend of everyday usability and engaging performance, featuring a responsive naturally aspirated engine and the lightning-fast PDK gearbox.',
-                        'specs' => [
-                            'Engine' => '3.8L Flat-6 Naturally Aspirated',
-                            'Drive' => 'Porsche Traction Management (PTM) AWD',
-                            'Transmission' => '7-Speed PDK Dual-Clutch',
-                            'Handling' => 'Porsche Active Suspension Management (PASM)',
-                            'Experience' => 'Classic 911 Sport-Luxury'
-                        ]
-                    ],
-                    'porsche-cayenne-diesel-2017' => [
-                        'description' => '2017 Porsche Cayenne Diesel Platinum Edition in pristine condition. A top-spec, highly refined luxury SUV that balances commanding presence with impressive fuel efficiency. Loaded with premium features.',
-                        'specs' => [
-                            'Engine' => '3.0 V6 Diesel',
-                            'Mileage' => '149,000km',
-                            'Transmission' => '8 Speed Auto',
-                            'Interior' => 'Leather Seats With Alcantara Centres (GTS Spec)',
-                            'Features' => 'Sports Chrono, Adaptive LED, Apple Car Play, Panoramic Sunroof'
-                        ]
-                    ]
-                ];
-
-                if (isset($details[$slug])) {
-                    $vehicle['description'] = $details[$slug]['description'];
-                    $vehicle['specs'] = $details[$slug]['specs'];
-                }
-
-                return $vehicle;
-            }
-        }
-        return null;
-    }
-}
+...
