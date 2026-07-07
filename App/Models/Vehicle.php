@@ -16,7 +16,7 @@ class Vehicle extends Model {
 
         // Mock data for a high-end experience
         return [
-            // Row 1
+            // Row 1 (Modern)
             [
                 'title' => '2017 Porsche 911 (991.2) Turbo S',
                 'price' => 'R 3,149,999',
@@ -96,7 +96,7 @@ class Vehicle extends Model {
                     '/assets/images/2014 NISSAN GTR BLACK EDITION/707463737_1012788997870050_4873462444024046242_n.jpg'
                 ]
             ],
-            // Row 3
+            // Row 3 (Modern)
             [
                 'title' => 'Mercedes AMG A45 2016',
                 'price' => 'Price on Request',
@@ -136,7 +136,47 @@ class Vehicle extends Model {
                     '/assets/images/2011 Audi rs5/730731889_1569805408126616_7693824297874912295_n.jpg'
                 ]
             ],
-            // Heritage
+            // Row 1 (Heritage)
+            [
+                'title' => '1970 Ford Mustang Mach 1',
+                'price' => 'R1,700,000',
+                'spec' => '351 Cleveland V8 | EFI Upgrade',
+                'image' => '/assets/images/1970 Ford mustang mach 1/725393723_1545093473680554_6997100395501502856_n.jpg',
+                'slug' => 'mustang-mach1-1970',
+                'category' => 'Heritage',
+                'gallery' => [
+                    '/assets/images/1970 Ford mustang mach 1/725393723_1545093473680554_6997100395501502856_n.jpg',
+                    '/assets/images/1970 Ford mustang mach 1/725678149_2846835648992294_5316960272738129077_n.jpg',
+                    '/assets/images/1970 Ford mustang mach 1/725985391_1317948647164227_5392817434577280434_n.jpg'
+                ]
+            ],
+            [
+                'title' => '1989 Rolls-Royce Silver Spur II',
+                'price' => 'R395,000',
+                'spec' => 'British Luxury Motoring | Classic Saloon',
+                'image' => '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
+                'slug' => 'rolls-royce-silver-spur-1989',
+                'category' => 'Heritage',
+                'gallery' => [
+                    '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
+                    '/assets/images/1989 Rolls-Royce Silver Spur II/703914818_960818500183580_8582087956582053181_n.jpg',
+                    '/assets/images/1989 Rolls-Royce Silver Spur II/703988238_960818616850235_9051760636449365744_n.jpg'
+                ]
+            ],
+            [
+                'title' => 'Heritage Classic: 1981 Mercedes Benz SL 500',
+                'price' => 'Price on Request',
+                'spec' => 'R107 Silver Icon | LHD | Timeless Elegance',
+                'image' => '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/674233864_917322214643543_5357440105891249331_n.jpg',
+                'slug' => 'mercedes-sl-500-81',
+                'category' => 'Heritage',
+                'gallery' => [
+                    '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/674233864_917322214643543_5357440105891249331_n.jpg',
+                    '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/674702946_2385089615331678_2191505095808981875_n.jpg',
+                    '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/676231387_968951179225487_7934731630374905882_n.jpg'
+                ]
+            ],
+            // Remaining Heritage
             [
                 'title' => '1977 Chevrolet Corvette Stingray',
                 'price' => 'Price on Request',
@@ -164,19 +204,6 @@ class Vehicle extends Model {
                 ]
             ],
             [
-                'title' => 'Heritage Classic: 1981 Mercedes Benz SL 500',
-                'price' => 'Price on Request',
-                'spec' => 'R107 Silver Icon | LHD | Timeless Elegance',
-                'image' => '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/674233864_917322214643543_5357440105891249331_n.jpg',
-                'slug' => 'mercedes-sl-500-81',
-                'category' => 'Heritage',
-                'gallery' => [
-                    '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/674233864_917322214643543_5357440105891249331_n.jpg',
-                    '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/674702946_2385089615331678_2191505095808981875_n.jpg',
-                    '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/676231387_968951179225487_7934731630374905882_n.jpg'
-                ]
-            ],
-            [
                 'title' => 'Heritage Classic: 1976 Cortina Mk3',
                 'price' => 'Price on Request',
                 'spec' => 'Classic 2.5L Straight-Six | Period-Correct Heritage',
@@ -186,32 +213,6 @@ class Vehicle extends Model {
                 'gallery' => [
                     '/assets/images/1975 Cortina/1975 Cortina.jpg',
                     '/assets/images/1975 Cortina/1975 Cortina Engine bay.jpg'
-                ]
-            ],
-            [
-                'title' => '1970 Ford Mustang Mach 1',
-                'price' => 'R1,700,000',
-                'spec' => '351 Cleveland V8 | EFI Upgrade',
-                'image' => '/assets/images/1970 Ford mustang mach 1/725393723_1545093473680554_6997100395501502856_n.jpg',
-                'slug' => 'mustang-mach1-1970',
-                'category' => 'Heritage',
-                'gallery' => [
-                    '/assets/images/1970 Ford mustang mach 1/725393723_1545093473680554_6997100395501502856_n.jpg',
-                    '/assets/images/1970 Ford mustang mach 1/725678149_2846835648992294_5316960272738129077_n.jpg',
-                    '/assets/images/1970 Ford mustang mach 1/725985391_1317948647164227_5392817434577280434_n.jpg'
-                ]
-            ],
-            [
-                'title' => '1989 Rolls-Royce Silver Spur II',
-                'price' => 'R395,000',
-                'spec' => 'British Luxury Motoring | Classic Saloon',
-                'image' => '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
-                'slug' => 'rolls-royce-silver-spur-1989',
-                'category' => 'Heritage',
-                'gallery' => [
-                    '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
-                    '/assets/images/1989 Rolls-Royce Silver Spur II/703914818_960818500183580_8582087956582053181_n.jpg',
-                    '/assets/images/1989 Rolls-Royce Silver Spur II/703988238_960818616850235_9051760636449365744_n.jpg'
                 ]
             ]
         ];
