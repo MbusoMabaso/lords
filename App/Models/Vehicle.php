@@ -16,7 +16,7 @@ class Vehicle extends Model {
 
         // Mock data for a high-end experience
         return [
-            // Row 1 (Modern)
+            // Modern Row 1
             [
                 'title' => '2017 Porsche 911 (991.2) Turbo S',
                 'price' => 'R 3,149,999',
@@ -56,7 +56,7 @@ class Vehicle extends Model {
                     '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/720361287_987157440694128_5577736774024899701_n.jpg'
                 ]
             ],
-            // Row 2
+            // Modern Row 2
             [
                 'title' => '2018 BMW M4 Competition',
                 'price' => 'R1,175,000',
@@ -96,7 +96,7 @@ class Vehicle extends Model {
                     '/assets/images/2014 NISSAN GTR BLACK EDITION/707463737_1012788997870050_4873462444024046242_n.jpg'
                 ]
             ],
-            // Row 3 (Modern)
+            // Modern Row 3
             [
                 'title' => 'Mercedes AMG A45 2016',
                 'price' => 'Price on Request',
@@ -136,10 +136,10 @@ class Vehicle extends Model {
                     '/assets/images/2011 Audi rs5/730731889_1569805408126616_7693824297874912295_n.jpg'
                 ]
             ],
-            // Row 1 (Heritage)
+            // Heritage Row 1
             [
                 'title' => '1970 Ford Mustang Mach 1',
-                'price' => 'R1,700,000',
+                'price' => 'R 2,000,000',
                 'spec' => '351 Cleveland V8 | EFI Upgrade',
                 'image' => '/assets/images/1970 Ford mustang mach 1/725393723_1545093473680554_6997100395501502856_n.jpg',
                 'slug' => 'mustang-mach1-1970',
@@ -152,7 +152,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '1989 Rolls-Royce Silver Spur II',
-                'price' => 'R395,000',
+                'price' => 'R 500,000',
                 'spec' => 'British Luxury Motoring | Classic Saloon',
                 'image' => '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
                 'slug' => 'rolls-royce-silver-spur-1989',
@@ -165,7 +165,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => 'Heritage Classic: 1981 Mercedes Benz SL 500',
-                'price' => 'Price on Request',
+                'price' => 'R 550,000',
                 'spec' => 'R107 Silver Icon | LHD | Timeless Elegance',
                 'image' => '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/674233864_917322214643543_5357440105891249331_n.jpg',
                 'slug' => 'mercedes-sl-500-81',
@@ -179,7 +179,7 @@ class Vehicle extends Model {
             // Remaining Heritage
             [
                 'title' => '1977 Chevrolet Corvette Stingray',
-                'price' => 'Price on Request',
+                'price' => 'SOLD',
                 'spec' => 'LS2 6.0L V8 Restomod | Tremec 6-Speed Precision',
                 'image' => '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
                 'slug' => 'corvette-stingray-77',
@@ -192,7 +192,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => 'Heritage Classic: Mercedes W123 200e',
-                'price' => 'Price on Request',
+                'price' => 'R 70,000',
                 'spec' => 'Timeless 200e Manual | Pristine Heritage Condition',
                 'image' => '/assets/images/mercedes-w123-200e/720050871_955310994197208_8653814241661819414_n.jpg',
                 'slug' => 'mercedes-w123-200e',
@@ -205,7 +205,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => 'Heritage Classic: 1976 Cortina Mk3',
-                'price' => 'Price on Request',
+                'price' => 'R 40,000',
                 'spec' => 'Classic 2.5L Straight-Six | Period-Correct Heritage',
                 'image' => '/assets/images/1975 Cortina/1975 Cortina.jpg',
                 'slug' => 'cortina-mk3',
