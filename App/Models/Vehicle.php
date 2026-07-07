@@ -83,6 +83,19 @@ class Vehicle extends Model {
                     '/assets/images/2017 Porsche 718 Cayman S PDK/728196347_4612311958999955_7984657632887830714_n.jpg'
                 ]
             ],
+            [
+                'title' => '2014 Nissan GTR Black Edition',
+                'price' => 'Price on Request',
+                'spec' => 'VR38DETT V6 Twin-Turbo | Pristine Low Mileage',
+                'image' => '/assets/images/2014 NISSAN GTR BLACK EDITION/705841661_1059276023442369_5460793877047879840_n.jpg',
+                'slug' => 'nissan-gtr-2014',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2014 NISSAN GTR BLACK EDITION/705841661_1059276023442369_5460793877047879840_n.jpg',
+                    '/assets/images/2014 NISSAN GTR BLACK EDITION/707426536_2522369898220075_8223645382967765423_n.jpg',
+                    '/assets/images/2014 NISSAN GTR BLACK EDITION/707463737_1012788997870050_4873462444024046242_n.jpg'
+                ]
+            ],
             // Row 3
             [
                 'title' => 'Mercedes AMG A45 2016',
@@ -108,19 +121,6 @@ class Vehicle extends Model {
                     '/assets/images/2017 Jaguar F Type R V8 SC Coupe/667368669_1432966918525839_8252283239627502812_n.jpg',
                     '/assets/images/2017 Jaguar F Type R V8 SC Coupe/667372112_910349798653174_1842394163980602604_n.jpg',
                     '/assets/images/2017 Jaguar F Type R V8 SC Coupe/667531436_962271046266965_3585801887348927560_n.jpg'
-                ]
-            ],
-            [
-                'title' => '2014 Nissan GTR Black Edition',
-                'price' => 'Price on Request',
-                'spec' => 'VR38DETT V6 Twin-Turbo | Pristine Low Mileage',
-                'image' => '/assets/images/2014 NISSAN GTR BLACK EDITION/705841661_1059276023442369_5460793877047879840_n.jpg',
-                'slug' => 'nissan-gtr-2014',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/2014 NISSAN GTR BLACK EDITION/705841661_1059276023442369_5460793877047879840_n.jpg',
-                    '/assets/images/2014 NISSAN GTR BLACK EDITION/707426536_2522369898220075_8223645382967765423_n.jpg',
-                    '/assets/images/2014 NISSAN GTR BLACK EDITION/707463737_1012788997870050_4873462444024046242_n.jpg'
                 ]
             ],
             [
