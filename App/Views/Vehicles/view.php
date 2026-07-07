@@ -61,10 +61,10 @@
                     <div class="agent-card">
                         <h3>Acquire This Masterpiece</h3>
                         <div class="contact-actions mt-3">
-                            <a href="https://wa.me/27123456789" class="btn btn-success w-100 mb-2" target="_blank">WhatsApp Us</a>
-                            <a href="tel:+27123456789" class="btn btn-secondary w-100 mb-2">Call Us</a>
+                            <a href="https://wa.me/272784491" class="btn btn-success w-100 mb-2" target="_blank">WhatsApp Us</a>
+                            <a href="tel:+272784491" class="btn btn-secondary w-100 mb-2">Call Us</a>
                         </div>
-                        <form action="mailto:info@lordsvehicles.com" method="post" enctype="text/plain" class="inquiry-form mt-3">
+                        <form action="mailto:mabaso@writeme.com" method="post" enctype="text/plain" class="inquiry-form mt-3">
                             <input type="text" name="name" placeholder="Your Name" class="form-input">
                             <input type="email" name="email" placeholder="Your Email" class="form-input">
                             <textarea name="message" placeholder="Your Message" class="form-input" rows="5"></textarea>
