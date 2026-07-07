@@ -10,7 +10,7 @@
 <body class="bg-dark text-light">
     <nav class="navbar static">
         <div class="container">
-            <a href="/" class="logo">LORDS VEHICLES</a>
+            <a href="/" class="logo">LLOYDS</a>
             <ul class="nav-links">
                 <li><a href="/vehicles">Collection</a></li>
                 <li><a href="/about">Heritage</a></li>
@@ -21,11 +21,11 @@
 
     <main class="container py-5 mt-5">
         <section class="heritage-content">
-            <h1 class="section-title">The Legacy of Lords Vehicles</h1>
+            <h1 class="section-title">The Legacy of Lloyds</h1>
             <div class="heritage-grid">
                 <div class="heritage-text">
                     <p class="lead">Preserving the pinnacle of automotive artistry.</p>
-                    <p>For decades, Lords Vehicles has been the silent guardian of the world's most extraordinary machines. We do not simply sell cars; we curate legacies. From the visceral roar of a classic V8 to the silent precision of modern hyper-engineering, our collection is a testament to human ambition and mechanical perfection.</p>
+                    <p>For decades, Lloyds has been the silent guardian of the world's most extraordinary machines. We do not simply sell cars; we curate legacies. From the visceral roar of a classic V8 to the silent precision of modern hyper-engineering, our collection is a testament to human ambition and mechanical perfection.</p>
                     <p class="mt-5">Our philosophy is simple: only the extraordinary. Every vehicle in our care undergoes a rigorous selection process, ensuring that only those with a profound story and impeccable provenance enter our stables.</p>
                 </div>
                 <div class="heritage-image">
@@ -37,7 +37,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; <?php echo date('Y'); ?> Lords Vehicles. All rights reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> Lloyds. All rights reserved.</p>
         </div>
     </footer>
 </body>

@@ -9,7 +9,7 @@ class Vehicles extends Controller {
     public function index() {
         $vehicles = Vehicle::getAll();
         $this->render('Vehicles/index', [
-            'title' => 'The Collection | Lords Vehicles',
+            'title' => 'The Collection | Lloyds',
             'vehicles' => $vehicles
         ]);
     }
@@ -23,7 +23,7 @@ class Vehicles extends Controller {
         }
 
         $this->render('Vehicles/view', [
-            'title' => $vehicle['title'] . ' | Lords Vehicles',
+            'title' => $vehicle['title'] . ' | Lloyds',
             'vehicle' => $vehicle
         ]);
     }

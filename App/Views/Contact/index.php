@@ -10,7 +10,7 @@
 <body class="bg-dark text-light">
     <nav class="navbar static">
         <div class="container">
-            <a href="/" class="logo">LORDS VEHICLES</a>
+            <a href="/" class="logo">LLOYDS</a>
             <ul class="nav-links">
                 <li><a href="/vehicles">Collection</a></li>
                 <li><a href="/about">Heritage</a></li>
@@ -66,7 +66,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; <?php echo date('Y'); ?> Lords Vehicles. All rights reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> Lloyds. All rights reserved.</p>
         </div>
     </footer>
 </body>
