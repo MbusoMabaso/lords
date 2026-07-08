@@ -70,7 +70,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '2017 Jaguar F Type R V8 S/C Coupe',
-                'price' => 'R750,000',
+                'price' => 'R 850,000',
                 'spec' => 'Jaguar F Type R Coupe AWD | 5.0 V8 Supercharge',
                 'image' => '/assets/images/2017 Jaguar F Type R V8 SC Coupe/667372112_910349798653174_1842394163980602604_n.jpg',
                 'slug' => 'jaguar-f-type-r-2017',
@@ -96,7 +96,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '2017 Porsche 718 Cayman S PDK',
-                'price' => 'Price on Request',
+                'price' => 'R 1,100,000',
                 'spec' => 'Mid-Engine Precision | PDK Gearbox',
                 'image' => '/assets/images/2017 Porsche 718 Cayman S PDK/727773552_4612311928999958_1827257494803287929_n.jpg',
                 'slug' => 'porsche-718-cayman-s',
@@ -109,7 +109,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '2018 BMW M4 Competition',
-                'price' => 'R1,175,000',
+                'price' => 'R 1,300,000',
                 'spec' => 'Competition Package | Twin-Turbo Performance',
                 'image' => '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
                 'slug' => 'bmw-m4-competition-2018',
@@ -122,7 +122,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '2011 Audi RS5',
-                'price' => 'Price on Request',
+                'price' => 'R 325,000',
                 'spec' => '4.2L V8 Quattro | S tronic Precision',
                 'image' => '/assets/images/2011 Audi rs5/728491032_1027191606452664_7146625296119600678_n.jpg',
                 'slug' => 'audi-rs5-2011',
