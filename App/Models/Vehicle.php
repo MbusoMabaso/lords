@@ -17,34 +17,86 @@ class Vehicle extends Model {
         // Mock data for a high-end experience
         return [
             [
-                'title' => '2017 Porsche 911 (991.2) Turbo S',
-                'price' => 'R 3,500,000',
-                'spec' => 'Exclusive Lava Orange | Twin-Turbo Flat-6',
-                'image' => '/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg',
-                'slug' => 'porsche-911-turbo-s-2017',
+                'title' => '2021 Porsche 718 Cayman GT4 Auto',
+                'price' => 'R 2,999,999',
+                'spec' => '309 kW | 9 000 km',
+                'image' => '/assets/images/2021 Porsche 718 Cayman 718 Cayman GT4 Auto FSH/1.jpg',
+                'slug' => 'porsche-718-cayman-gt4-2021',
                 'category' => 'Modern',
                 'gallery' => [
-                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg',
-                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/716974506_1645136376551172_8742596011284347625_n.jpg',
-                    '/assets/images/2017 Porsche 911 (991.2) Turbo S/717038069_936437986087322_6236742058352800887_n.jpg'
+                    '/assets/images/2021 Porsche 718 Cayman 718 Cayman GT4 Auto FSH/1.jpg',
+                    '/assets/images/2021 Porsche 718 Cayman 718 Cayman GT4 Auto FSH/2.jpg',
+                    '/assets/images/2021 Porsche 718 Cayman 718 Cayman GT4 Auto FSH/3.jpg'
                 ]
             ],
             [
-                'title' => '2014 Porsche 911 Carrera 4S',
-                'price' => 'R 1,550,000',
-                'spec' => 'PDK Gearbox | 4WD Performance',
-                'image' => '/assets/images/Porche 911-1 Carrera 4S auto (2014)/705429307_27504224952497014_7599912416823416626_n.jpg',
-                'slug' => 'porsche-911-carrera-4s-2014',
+                'title' => 'Porsche 991.2 GT3 R',
+                'price' => 'R 10,999,999',
+                'spec' => '1 of only 2 in South Africa | Well Maintained',
+                'image' => '/assets/images/Porsche 991.2 GT3 R/1.jpg',
+                'slug' => 'porsche-991-2-gt3-r',
                 'category' => 'Modern',
                 'gallery' => [
-                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/705429307_27504224952497014_7599912416823416626_n.jpg',
-                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/706337016_27504226422496867_1131582987687013370_n.jpg',
-                    '/assets/images/Porche 911-1 Carrera 4S auto (2014)/706744775_27504224495830393_4839450225172063808_n.jpg'
+                    '/assets/images/Porsche 991.2 GT3 R/1.jpg',
+                    '/assets/images/Porsche 991.2 GT3 R/2.jpg',
+                    '/assets/images/Porsche 991.2 GT3 R/3.jpg'
+                ]
+            ],
+            [
+                'title' => '🔥 2025 BMW M5 V8 Hybrid 🔥',
+                'price' => 'R 2,999,999',
+                'spec' => '535kW Combined | M Sport Package',
+                'image' => '/assets/images/2025 BMW M5 V8 Hybrid/1.jpg',
+                'slug' => 'bmw-m5-hybrid-2025',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2025 BMW M5 V8 Hybrid/1.jpg',
+                    '/assets/images/2025 BMW M5 V8 Hybrid/2.jpg',
+                    '/assets/images/2025 BMW M5 V8 Hybrid/3.jpg'
+                ]
+            ],
+            [
+                'title' => 'Lamborghini Gallardo LP520 GT3 Evo+',
+                'price' => 'R 3,099,999',
+                'spec' => '5.2L V10 Engine 600hp | Motec ECU',
+                'image' => '/assets/images/2007 Lamborghini Galardo lp520 gt3 evo+/1.jpg',
+                'slug' => 'lamborghini-gallardo-lp520-gt3',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2007 Lamborghini Galardo lp520 gt3 evo+/1.jpg',
+                    '/assets/images/2007 Lamborghini Galardo lp520 gt3 evo+/2.jpg',
+                    '/assets/images/2007 Lamborghini Galardo lp520 gt3 evo+/3.jpg'
+                ]
+            ],
+            [
+                'title' => '2023 Bentley Continental GT V8',
+                'price' => 'R 4,999,999',
+                'spec' => '4.0L V8 | 11,900km',
+                'image' => '/assets/images/2023 Bentley Continental GT V8/1.jpg',
+                'slug' => 'bentley-continental-gt-2023',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2023 Bentley Continental GT V8/1.jpg',
+                    '/assets/images/2023 Bentley Continental GT V8/2.jpg',
+                    '/assets/images/2023 Bentley Continental GT V8/3.jpg'
+                ]
+            ],
+            [
+                'title' => '2017 Lamborghini Huracan Lp 580-2',
+                'price' => 'R 5,599,999',
+                'spec' => '19,292 Miles | Aero carbon Kit',
+                'image' => '/assets/images/2017 Lamborghini huracan/748510219_1384839036904105_7361826602989264169_n.jpg',
+                'slug' => 'lamborghini-huracan-2017',
+                'category' => 'Modern',
+                'gallery' => [
+                    '/assets/images/2017 Lamborghini huracan/748510219_1384839036904105_7361826602989264169_n.jpg',
+                    '/assets/images/2017 Lamborghini huracan/748813094_1571712484510253_2964823627781974293_n.jpg',
+                    '/assets/images/2017 Lamborghini huracan/749250270_1340486324876389_4735125514264394517_n.jpg'
                 ]
             ],
             [
                 'title' => '2017 Porsche Cayenne Diesel Platinum Edition',
-                'price' => 'R 650,000',
+                'price' => 'R 649,999',
                 'spec' => '3.0 V6 Diesel | Top Spec',
                 'image' => '/assets/images/2017 Porsche Cayenne Diesel Platinum Edition/719425450_2493268917780333_5008344261992661509_n.jpg',
                 'slug' => 'porsche-cayenne-diesel-2017',
@@ -56,21 +108,21 @@ class Vehicle extends Model {
                 ]
             ],
             [
-                'title' => 'Mercedes AMG A45 2016',
-                'price' => 'R 450,000',
-                'spec' => '2.0L Turbocharged | AMG Performance',
-                'image' => '/assets/images/Mercedes AMG A45 2016/735476225_1634248207641685_7836289288096319187_n.jpg',
-                'slug' => 'mercedes-amg-a45-2016',
+                'title' => '2017 LAMBORGHINI HURACAN LP610-4 Coupe',
+                'price' => 'R 7,999,999',
+                'spec' => '900hp (93 Octane) | Twin Turbo System',
+                'image' => '/assets/images/2017 LAMBORGHINI HURACAN LP610-4 Coupe/1.jpg',
+                'slug' => 'lamborghini-huracan-lp610-4',
                 'category' => 'Modern',
                 'gallery' => [
-                    '/assets/images/Mercedes AMG A45 2016/735476225_1634248207641685_7836289288096319187_n.jpg',
-                    '/assets/images/Mercedes AMG A45 2016/731916580_1069755048736762_4905525429767925472_n.jpg',
-                    '/assets/images/Mercedes AMG A45 2016/732309420_2070851867642909_1809375568719175282_n.jpg'
+                    '/assets/images/2017 LAMBORGHINI HURACAN LP610-4 Coupe/1.jpg',
+                    '/assets/images/2017 LAMBORGHINI HURACAN LP610-4 Coupe/2.jpg',
+                    '/assets/images/2017 LAMBORGHINI HURACAN LP610-4 Coupe/3.jpg'
                 ]
             ],
             [
                 'title' => '2017 Jaguar F Type R V8 S/C Coupe',
-                'price' => 'R 850,000',
+                'price' => 'R 849,999',
                 'spec' => 'Jaguar F Type R Coupe AWD | 5.0 V8 Supercharge',
                 'image' => '/assets/images/2017 Jaguar F Type R V8 SC Coupe/667372112_910349798653174_1842394163980602604_n.jpg',
                 'slug' => 'jaguar-f-type-r-2017',
@@ -83,7 +135,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '2014 Nissan GTR Black Edition',
-                'price' => 'R 2,000,000',
+                'price' => 'R 1,999,999',
                 'spec' => 'VR38DETT V6 Twin-Turbo | Pristine Low Mileage',
                 'image' => '/assets/images/2014 NISSAN GTR BLACK EDITION/705841661_1059276023442369_5460793877047879840_n.jpg',
                 'slug' => 'nissan-gtr-2014',
@@ -96,7 +148,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '2017 Porsche 718 Cayman S PDK',
-                'price' => 'R 1,100,000',
+                'price' => 'R 1,099,999',
                 'spec' => 'Mid-Engine Precision | PDK Gearbox',
                 'image' => '/assets/images/2017 Porsche 718 Cayman S PDK/727773552_4612311928999958_1827257494803287929_n.jpg',
                 'slug' => 'porsche-718-cayman-s',
@@ -109,7 +161,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '2018 BMW M4 Competition',
-                'price' => 'R 1,300,000',
+                'price' => 'R 1,299,999',
                 'spec' => 'Competition Package | Twin-Turbo Performance',
                 'image' => '/assets/images/2018 BMW M4 Competition/705967808_10227553666582345_3051814901490278548_n.jpg',
                 'slug' => 'bmw-m4-competition-2018',
@@ -121,48 +173,48 @@ class Vehicle extends Model {
                 ]
             ],
             [
-                'title' => '2011 Audi RS5',
-                'price' => 'R 325,000',
-                'spec' => '4.2L V8 Quattro | S tronic Precision',
-                'image' => '/assets/images/2011 Audi rs5/728491032_1027191606452664_7146625296119600678_n.jpg',
-                'slug' => 'audi-rs5-2011',
-                'category' => 'Modern',
-                'gallery' => [
-                    '/assets/images/2011 Audi rs5/728491032_1027191606452664_7146625296119600678_n.jpg',
-                    '/assets/images/2011 Audi rs5/728653029_942460782181422_1413648466357339075_n.jpg',
-                    '/assets/images/2011 Audi rs5/730731889_1569805408126616_7693824297874912295_n.jpg'
-                ]
-            ],
-            [
-                'title' => '1977 Chevrolet Corvette Stingray',
-                'price' => 'Price on Request',
-                'spec' => 'LS2 6.0L V8 Restomod | Tremec 6-Speed Precision',
-                'image' => '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
-                'slug' => 'corvette-stingray-77',
+                'title' => '1959 Mercedes-Benz 190SL Roadster',
+                'price' => 'R 2,999,999',
+                'spec' => 'Fully Restored | Matching Numbers',
+                'image' => '/assets/images/1959 Mercedes-Benz 190SL Roadster/1.jpg',
+                'slug' => 'mercedes-benz-190sl-1959',
                 'category' => 'Heritage',
                 'gallery' => [
-                    '/assets/images/1977 Chevrolet corvette stingray/731808258_1873065020028412_4821601629514033590_n.jpg',
-                    '/assets/images/1977 Chevrolet corvette stingray/732663403_2714258315613549_2294779883698764090_n.jpg',
-                    '/assets/images/1977 Chevrolet corvette stingray/732733202_878183465330737_6114279744032546006_n.jpg'
+                    '/assets/images/1959 Mercedes-Benz 190SL Roadster/1.jpg',
+                    '/assets/images/1959 Mercedes-Benz 190SL Roadster/2.jpg',
+                    '/assets/images/1959 Mercedes-Benz 190SL Roadster/3.jpg'
                 ]
             ],
             [
-                'title' => 'Heritage Classic: Mercedes W123 200e',
-                'price' => 'Price on Request',
-                'spec' => 'Timeless 200e Manual | Pristine Heritage Condition',
-                'image' => '/assets/images/mercedes-w123-200e/720050871_955310994197208_8653814241661819414_n.jpg',
-                'slug' => 'mercedes-w123-200e',
+                'title' => 'Porsche 993 GT2 Evo',
+                'price' => 'R 6,499,999',
+                'spec' => '4 Litre Engine | Full Suspension',
+                'image' => '/assets/images/Porsche 993 GT2 Evo/1.jpg',
+                'slug' => 'porsche-993-gt2-evo',
                 'category' => 'Heritage',
                 'gallery' => [
-                    '/assets/images/mercedes-w123-200e/720050871_955310994197208_8653814241661819414_n.jpg',
-                    '/assets/images/mercedes-w123-200e/722302775_955572967504344_6034469551019190114_n.jpg',
-                    '/assets/images/mercedes-w123-200e/722637488_955573010837673_2684274555829395612_n.jpg'
+                    '/assets/images/Porsche 993 GT2 Evo/1.jpg',
+                    '/assets/images/Porsche 993 GT2 Evo/2.jpg',
+                    '/assets/images/Porsche 993 GT2 Evo/3.jpg'
                 ]
             ],
             [
-                'title' => 'Heritage Classic: 1981 Mercedes Benz SL 500',
-                'price' => 'Price on Request',
-                'spec' => 'R107 Silver Icon | LHD | Timeless Elegance',
+                'title' => '1990 Ferrari 348 TS',
+                'price' => 'R 1,999,999',
+                'spec' => 'Gated Manual | 79,000kms',
+                'image' => '/assets/images/1990 Ferrari 348 TS/1.jpg',
+                'slug' => 'ferrari-348-ts-1990',
+                'category' => 'Heritage',
+                'gallery' => [
+                    '/assets/images/1990 Ferrari 348 TS/1.jpg',
+                    '/assets/images/1990 Ferrari 348 TS/2.jpg',
+                    '/assets/images/1990 Ferrari 348 TS/3.jpg'
+                ]
+            ],
+            [
+                'title' => '1981 Mercedes Benz SL 500',
+                'price' => 'R 499,999',
+                'spec' => 'R107 Silver Icon | LHD',
                 'image' => '/assets/images/1981 Mercedes Benz SL 500 R107 LHD for sale/674233864_917322214643543_5357440105891249331_n.jpg',
                 'slug' => 'mercedes-sl-500-81',
                 'category' => 'Heritage',
@@ -173,20 +225,8 @@ class Vehicle extends Model {
                 ]
             ],
             [
-                'title' => 'Heritage Classic: 1976 Cortina Mk3',
-                'price' => 'Price on Request',
-                'spec' => 'Classic 2.5L Straight-Six | Period-Correct Heritage',
-                'image' => '/assets/images/1975 Cortina/1975 Cortina.jpg',
-                'slug' => 'cortina-mk3',
-                'category' => 'Heritage',
-                'gallery' => [
-                    '/assets/images/1975 Cortina/1975 Cortina.jpg',
-                    '/assets/images/1975 Cortina/1975 Cortina Engine bay.jpg'
-                ]
-            ],
-            [
                 'title' => '1970 Ford Mustang Mach 1',
-                'price' => 'R1,700,000',
+                'price' => 'R 1,999,999',
                 'spec' => '351 Cleveland V8 | EFI Upgrade',
                 'image' => '/assets/images/1970 Ford mustang mach 1/725393723_1545093473680554_6997100395501502856_n.jpg',
                 'slug' => 'mustang-mach1-1970',
@@ -199,7 +239,7 @@ class Vehicle extends Model {
             ],
             [
                 'title' => '1989 Rolls-Royce Silver Spur II',
-                'price' => 'R395,000',
+                'price' => 'R 599,999',
                 'spec' => 'British Luxury Motoring | Classic Saloon',
                 'image' => '/assets/images/1989 Rolls-Royce Silver Spur II/703316409_960818470183583_7248704278918741785_n.jpg',
                 'slug' => 'rolls-royce-silver-spur-1989',
@@ -220,152 +260,99 @@ class Vehicle extends Model {
 
                 // Vehicle-specific high-end narratives
                 $details = [
-                    'audi-rs5-2011' => [
-                        'description' => 'The Audi RS5 is a masterclass in balanced performance. Powered by a screaming 4.2L naturally aspirated V8 and the legendary Quattro all-wheel-drive system, it offers a visceral connection to the asphalt combined with an interior of uncompromising luxury.',
+                    'porsche-718-cayman-gt4-2021' => [
+                        'description' => 'The cleanest GT4 AROUND, WITH full BODY PPF and full franchise service history. Major service recently done at Porsche.',
                         'specs' => [
-                            'Engine' => '4.2L V8 Naturally Aspirated',
-                            'Power' => '331kW of Raw Power',
-                            'Drive' => 'Quattro All-Wheel Drive',
-                            'Gearbox' => 'S tronic Dual-Clutch',
-                            'Exhaust' => 'Factory Sport Exhaust System'
+                            'Model Year' => '2021',
+                            'Mileage' => '9,000 km',
+                            'Power' => '309 kW',
+                            'Performance' => '0-100km/h in 3.9s',
+                            'Transmission' => 'Automatic',
+                            'Fuel' => 'Petrol',
+                            'Seats' => '2',
+                            'Service History' => 'Full Franchise Service History'
                         ]
                     ],
-                    'mercedes-amg-a45-2016' => [
-                        'description' => 'The Mercedes-AMG A45 is the ultimate expression of hot-hatch performance. Combining compact agility with explosive turbocharged power, it delivers an adrenaline-fueled driving experience that challenges much larger machines.',
+                    'porsche-991-2-gt3-r' => [
+                        'description' => 'Well maintained 1 of only 2 in South Africa Porsche 991.2 GT3 R. Run and well looked after and prepared by MJR Motorsport. All updates done as per manufacturer. Spare package included.',
                         'specs' => [
-                            'Engine' => '2.0L Turbocharged 4-Cylinder',
-                            'Power' => '375hp - 416hp',
-                            'Drive' => '4MATIC All-Wheel Drive',
-                            'Gearbox' => '7-Speed Dual-Clutch',
-                            'Performance' => 'AMG Dynamics'
+                            'Status' => 'Well Maintained',
+                            'Rarity' => '1 of only 2 in South Africa',
+                            'Preparation' => 'MJR Motorsport',
+                            'Maintenance' => 'All updates done as per manufacturer',
+                            'Included' => 'Spare package'
                         ]
                     ],
-                    'jaguar-f-type-r-2017' => [
-                        'description' => 'A breathtaking fusion of elegance and raw power. This 2017 Jaguar F Type R Coupe, finished in stunning Pearl White, is an AWD masterpiece. With its 5.0L V8 Supercharged engine delivering 405kW (550hp), it offers an exhilarating driving experience complemented by premium features like carbon ceramic brakes, Project 7 mag wheels, and a luxurious interior.',
+                    'mercedes-benz-190sl-1959' => [
+                        'description' => 'A 1959 Mercedes-Benz 190SL Roadster. This is a fully restored, matching numbers example. Finished in Anthracite grey metalic with tan leather interior and black soft top. Equipped with the original Solex carbs this example performs exceptionally well and recently completed a 1,600km rally without skipping a beat.',
                         'specs' => [
-                            'Engine' => '5.0L V8 Supercharged',
-                            'Power' => '405kW (550hp)',
-                            'Torque' => '680Nm',
-                            'Transmission' => '8-speed ZF Gearbox',
-                            'Mileage' => '86,000km',
-                            'Features' => 'Carbon Ceramic Brakes | Project 7 Mag Wheels'
+                            'Model' => '190SL Roadster',
+                            'Year' => '1959',
+                            'Condition' => 'Fully Restored, Matching Numbers',
+                            'Exterior' => 'Anthracite grey metallic',
+                            'Interior' => 'Tan leather',
+                            'Mechanical' => 'Original Solex carbs'
                         ]
                     ],
-                    'corvette-stingray-77' => [
-                        'description' => 'A legendary American icon reborn. This frame-off restoration blends the aggressive, timeless curves of the 1977 Stingray with the brutal efficiency of a modern LS2 heart. It is a bridge between two eras of muscle.',
+                    'porsche-993-gt2-evo' => [
+                        'description' => 'This Porsche 993 GT2 Evo was originally built by Heiner Zimmer. It was modified into a Cup car, used for racing. It have a 4 litre engine, full suspension, abs and an air cooled system.',
                         'specs' => [
-                            'Engine' => 'LS2 6.0L V8 Restomod',
-                            'Transmission' => 'Tremec 6-Speed Manual',
-                            'Restoration' => 'Full Frame-Off Rebuild',
-                            'Presence' => 'Classic Corvette Aesthetic',
-                            'Performance' => 'Modern Powertrain Reliability'
+                            'Engine' => '4 Litre',
+                            'Type' => 'Cup Car (Modified)',
+                            'Features' => 'Full suspension, ABS, Air cooled system'
                         ]
                     ],
-                    'nissan-gtr-2014' => [
-                        'description' => 'Known as Godzilla, the GTR Black Edition is a masterclass in all-wheel-drive precision. This specimen, with its exceptionally low mileage, represents the peak of Japanese engineering and street-legal dominance.',
+                    'ferrari-348-ts-1990' => [
+                        'description' => 'The Ferrari 348ts with a gated manual transmission was the final mid-engine V8 commissioned by Enzo Ferrari himself before he passed on and it carries his legacy in this incredibly analogue driver focused machine. It is truly magnificent to admire and flaunts an undoubtedly pretty physique from flared arches to the sleek side air scoops akin to the very famous testarossa, this was the epiphany of a bold statement back in the 90’s. This particular example is finished in the best color Rosso Corsa red with beige leather interior and has done a mere 79000kms from new with full service history.',
                         'specs' => [
-                            'Engine' => 'VR38DETT V6 Twin-Turbo',
-                            'Mileage' => '48,000km Pristine',
-                            'Drive' => 'ATTESA E-TS AWD',
-                            'Trim' => 'Black Edition Luxury',
-                            'Performance' => 'Precision-Tuned Handling'
+                            'Model' => '348 TS',
+                            'Year' => '1990',
+                            'Transmission' => 'Gated Manual',
+                            'Mileage' => '79,000 km',
+                            'Exterior' => 'Rosso Corsa Red',
+                            'Interior' => 'Beige leather'
                         ]
                     ],
-                    'porsche-718-cayman-s' => [
-                        'description' => 'The 718 Cayman S is a masterclass in balance and agility. With its mid-engine layout and the lightning-fast PDK gearbox, it offers a surgical driving experience that is as rewarding on the track as it is exhilarating on the open road.',
+                    'lamborghini-gallardo-lp520-gt3' => [
+                        'description' => '🔥 Lamborghini Galardo LP520 GT3 Evo+. Super fast and sorted racecar eligible for multiple championships in SA. Upgrades include 5.2L V10 Engine 600hp, Motec ECU incl. dash, Ohlins 3 Way adjustable Suspension, and Evo Aero Upgrades. Great car to jump in and go fast straight away.',
                         'specs' => [
-                            'Engine' => 'Flat-Four Turbocharged',
-                            'Transmission' => 'PDK Dual-Clutch',
-                            'Layout' => 'Mid-Engine RWD',
-                            'Handling' => 'Dynamic Chassis Control',
-                            'Aesthetic' => 'Sleek Aerodynamic Silhouette'
+                            'Engine' => '5.2L V10',
+                            'Power' => '600hp',
+                            'ECU' => 'Motec incl. dash',
+                            'Suspension' => 'Ohlins 3 Way adjustable',
+                            'Upgrades' => 'Evo Aero',
+                            'Includes' => '2x Sets Wheels, Wheel Socket, Air Lance, Download Cable, Various small parts'
                         ]
                     ],
-                    'mercedes-w123-200e' => [
-                        'description' => 'A beacon of reliability and understated luxury. The W123 remains the gold standard of the classic Mercedes-Benz era, offering a serene cabin experience and an indomitable mechanical spirit. This 200e manual exemplifies the purity of the driving experience.',
+                    'bentley-continental-gt-2023' => [
+                        'description' => 'The Bentley Continental GT v8 is a groundbreaking luxury convertible. This Bentley Continental GT V8 offers a unique combination of power, craftsmanship and stunning automotive design, and is available with the phenomenally powerful 4.0 litre V8 petrol engine.',
                         'specs' => [
-                            'Engine' => '2.0L Inline-Four',
-                            'Transmission' => 'Precision 4-Speed Manual',
-                            'Condition' => 'Pristine Heritage',
-                            'Interior' => 'Classic MB-Tex / Leather',
-                            'Heritage' => 'The Legend of Reliability'
+                            'Mileage' => '11,900km',
+                            'Engine' => '4.0 litre V8 petrol',
+                            'Features' => 'Fine leather interior, Fine leather roof lining, Chrome exterior trim, Chrome mesh grille, Wood finish dashboard trim, 21" rims, Crystal headlights, Bentley logo embossed on headrests, 360-degree camera, Illuminated aluminium door step panels, Deployable rear spoiler, Blind spot assist, Black and red interior leather combination, Adjustable air suspension, Onboard navigation, Park Assist, Cruise control, Heated seats, Tyre pressure monitoring, Multifunctional driver\'s display'
                         ]
                     ],
-                    'mercedes-sl-500-81' => [
-                        'description' => 'The R107 SL is the definitive expression of the jet-set lifestyle. This 1981 Silver Icon blends effortless open-top cruising with an imposing presence that has never gone out of style.',
+                    'lamborghini-huracan-2017' => [
+                        'description' => '2017 Lamborghini Huracan Lp 580-2. This car is super clean, with a rare spec. It has plenty of modifications that made this build the perfect look.',
                         'specs' => [
-                            'Chassis' => 'R107 Classic',
-                            'Drive' => 'Left-Hand Drive (LHD)',
-                            'Exterior' => 'Classic Silver Metallic',
-                            'Tops' => 'Hard Top & Soft Top Included',
-                            'Status' => 'Timeless Luxury Icon'
+                            'Mileage' => '19,292 Miles',
+                            'Suspension' => 'Novitec',
+                            'Aero' => 'Carbon Kit | Forged carbon front lip',
+                            'Exhaust' => 'Aftermarket',
+                            'Wheels' => 'Aftermarket spoke',
+                            'Included' => '2 Keys',
+                            'Title' => 'Clean'
                         ]
                     ],
-                    'cortina-mk3' => [
-                        'description' => 'A nostalgic journey back to the 70s. The Cortina Mk3 is more than just a car; it is a cultural touchstone. This 2.5L Straight-Six example provides a visceral, analog connection to the road that is missing in the modern world.',
+                    'bmw-m5-hybrid-2025' => [
+                        'description' => '🔥 2025 BMW M5 V8 Hybrid. 2025 Model, 19,500 km, 535kw combined. Automatic, M Sport Package, Full Service History, Balance of BMW Warranty & Maintenance Plan. Finance Available.',
                         'specs' => [
-                            'Engine' => '2.5L Straight-Six',
-                            'Era' => '1970s British Classic',
-                            'Character' => 'Period-Correct Heritage',
-                            'Condition' => 'Well-Maintained Daily',
-                            'Experience' => 'Pure Analog Driving'
-                        ]
-                    ],
-                    'mustang-mach1-1970' => [
-                        'description' => '1970 Ford Mustang Mach 1. Fully restored, bolt-and-nut. Rebuilt 351 Cleveland 4V engine, all-new suspension, brand-new interior and new glass throughout. This is a properly finished restoration, not a project, ready to drive and enjoy.',
-                        'specs' => [
-                            'Engine' => 'Rebuilt 351 Cleveland 4V',
-                            'Upgrade' => 'EFI upgrade',
-                            'Restoration' => 'Full bolt-and-nut',
-                            'Condition' => 'Excellent, ready to drive'
-                        ]
-                    ],
-                    'rolls-royce-silver-spur-1989' => [
-                        'description' => 'An iconic piece of British luxury motoring. This 1989 Rolls-Royce Silver Spur II presents beautifully in clean condition and offers timeless elegance, presence, and comfort that only a Rolls-Royce can deliver.',
-                        'specs' => [
-                            'Mileage' => '84,000km from new',
-                            'Docs' => 'Original owner’s manuals & Service books included',
-                            'Condition' => 'Clean, well-kept example',
-                            'Type' => 'Classic luxury saloon'
-                        ]
-                    ],
-                    'bmw-m4-competition-2018' => [
-                        'description' => 'Meticulously maintained F82 M4 Competition with very low mileage. Features the full Competition Package, extensive carbon fiber accents, and a comprehensive suite of premium interior options.',
-                        'specs' => [
-                            'Engine' => 'Twin-Turbo Inline-6',
-                            'Mileage' => '20,000km',
-                            'Wheels' => '20-inch Alloy',
-                            'Features' => 'Carbon Fibre Exterior Kit, Harman Kardon Sound, HUD'
-                        ]
-                    ],
-                    'audi-rs5-2011' => [
-                        'description' => 'The Audi RS5 is a masterclass in balanced performance. Powered by a screaming 4.2L naturally aspirated V8 and the legendary Quattro all-wheel-drive system, it offers a visceral connection to the asphalt combined with an interior of uncompromising luxury.',
-                        'specs' => [
-                            'Engine' => '4.2L V8 Naturally Aspirated',
-                            'Power' => '331kW of Raw Power',
-                            'Drive' => 'Quattro All-Wheel Drive',
-                            'Gearbox' => 'S tronic Dual-Clutch',
-                            'Exhaust' => 'Factory Sport Exhaust System'
-                        ]
-                    ],
-                    'porsche-911-turbo-s-2017' => [
-                        'description' => '2017 Porsche 911 Turbo S in Exclusive Lava Orange (PTS) with Black Leather. Porsche Exclusive Package special order extra\'s include Front Axle Lift, Factory Aerokit, Glass tilt and slide Sunroof, and Extended leather package. Meticulously maintained and still under Porsche motorplan.',
-                        'specs' => [
-                            'Engine' => 'Twin-Turbo Flat-6',
-                            'Mileage' => '60,500km',
-                            'Interior' => 'Black Leather with Lava Orange stitching',
-                            'Features' => 'Front Axle Lift, Aerokit, Glass Sunroof, Heated/Cooled Seats',
-                            'Status' => 'Under Porsche Motorplan'
-                        ]
-                    ],
-                    'porsche-911-carrera-4s-2014' => [
-                        'description' => 'The 2014 Porsche 911 Carrera 4S (991) combines the iconic silhouette of the 911 with the advanced capability of Porsche’s all-wheel-drive system. This model delivers a perfect blend of everyday usability and engaging performance, featuring a responsive naturally aspirated engine and the lightning-fast PDK gearbox.',
-                        'specs' => [
-                            'Engine' => '3.8L Flat-6 Naturally Aspirated',
-                            'Drive' => 'Porsche Traction Management (PTM) AWD',
-                            'Transmission' => '7-Speed PDK Dual-Clutch',
-                            'Handling' => 'Porsche Active Suspension Management (PASM)',
-                            'Experience' => 'Classic 911 Sport-Luxury'
+                            'Model Year' => '2025',
+                            'Mileage' => '19,500 km',
+                            'Power' => '535kW Combined',
+                            'Transmission' => 'Automatic',
+                            'Package' => 'M Sport Package',
+                            'Features' => 'LED Kidney grill, LED Headlights, Digital Instrument Cluster, Leather Interior, Reverse Camera & PDC, Multi-function Steering Wheel, Electric Seats, Keyless Start, Climate Control, Premium Alloy Wheels'
                         ]
                     ],
                     'porsche-cayenne-diesel-2017' => [
@@ -376,6 +363,16 @@ class Vehicle extends Model {
                             'Transmission' => '8 Speed Auto',
                             'Interior' => 'Leather Seats With Alcantara Centres (GTS Spec)',
                             'Features' => 'Sports Chrono, Adaptive LED, Apple Car Play, Panoramic Sunroof'
+                        ]
+                    ],
+                    'mercedes-sl-500-81' => [
+                        'description' => 'The R107 SL is the definitive expression of the jet-set lifestyle. This 1981 Silver Icon blends effortless open-top cruising with an imposing presence that has never gone out of style.',
+                        'specs' => [
+                            'Chassis' => 'R107 Classic',
+                            'Drive' => 'Left-Hand Drive (LHD)',
+                            'Exterior' => 'Classic Silver Metallic',
+                            'Tops' => 'Hard Top & Soft Top Included',
+                            'Status' => 'Timeless Luxury Icon'
                         ]
                     ]
                 ];

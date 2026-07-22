@@ -22,11 +22,9 @@
     <main class="container py-5 mt-5">
         <header class="section-header">
             <h1 class="section-title">The Automotive Collection</h1>
-            <p class="text-center text-gray">Curated masterpieces for the discerning collector.</p>
         </header>
 
         <section class="collection-section mt-5">
-            <h2 class="collection-category-title">Modern Masterpieces</h2>
             <div class="vehicle-grid">
                 <?php foreach ($vehicles as $vehicle): ?>
                     <?php if ($vehicle['category'] === 'Modern'): ?>
