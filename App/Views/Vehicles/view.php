@@ -36,16 +36,20 @@
 
                     <div class="description mt-5">
                         <h2>Engineering Philosophy</h2>
-                        <p><?php echo $vehicle['description']; ?></p>
+                        <p><?php echo isset($vehicle['description']) ? $vehicle['description'] : 'Details coming soon.'; ?></p>
                     </div>
 
                     <div class="specs-grid mt-5">
-                        <?php foreach ($vehicle['specs'] as $label => $value): ?>
-                            <div class="spec-item">
-                                <span class="spec-label"><?php echo $label; ?></span>
-                                <span class="spec-value"><?php echo $value; ?></span>
-                            </div>
-                        <?php endforeach; ?>
+                        <?php if (isset($vehicle['specs']) && is_array($vehicle['specs'])): ?>
+                            <?php foreach ($vehicle['specs'] as $label => $value): ?>
+                                <div class="spec-item">
+                                    <span class="spec-label"><?php echo $label; ?></span>
+                                    <span class="spec-value"><?php echo $value; ?></span>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php else: ?>
+                            <p>Specifications coming soon.</p>
+                        <?php endif; ?>
                     </div>
 
                     <div class="map-placeholder mt-5">

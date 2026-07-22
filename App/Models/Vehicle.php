@@ -59,13 +59,13 @@ class Vehicle extends Model {
                 'title' => 'Lamborghini Gallardo LP520 GT3 Evo+',
                 'price' => 'R 3,099,999',
                 'spec' => '5.2L V10 Engine 600hp | Motec ECU',
-                'image' => '/assets/images/2007 Lamborghini Galardo lp520 gt3 evo+/1.jpg',
+                'image' => '/assets/images/lambo-gallardo-520/1.jpg',
                 'slug' => 'lamborghini-gallardo-lp520-gt3',
                 'category' => 'Modern',
                 'gallery' => [
-                    '/assets/images/2007 Lamborghini Galardo lp520 gt3 evo+/1.jpg',
-                    '/assets/images/2007 Lamborghini Galardo lp520 gt3 evo+/2.jpg',
-                    '/assets/images/2007 Lamborghini Galardo lp520 gt3 evo+/3.jpg'
+                    '/assets/images/lambo-gallardo-520/1.jpg',
+                    '/assets/images/lambo-gallardo-520/2.jpg',
+                    '/assets/images/lambo-gallardo-520/3.jpg'
                 ]
             ],
             [
