@@ -21,9 +21,9 @@
 
     <header class="hero-carousel" style="position: relative; height: 100vh; overflow: hidden; display: flex; align-items: center; justify-content: center; text-align: center;">
         <div class="carousel-slides" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; transition: transform 1s ease-in-out;">
-            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 Porsche 911 (991.2) Turbo S/716871548_1270707578385355_5970121644626082192_n.jpg'); background-size: cover; background-position: center;"></div>
-            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 Porsche 911 (991.2) Turbo S/716974506_1645136376551172_8742596011284347625_n.jpg'); background-size: cover; background-position: center;"></div>
-            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 Porsche 911 (991.2) Turbo S/717038069_936437986087322_6236742058352800887_n.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 LAMBORGHINI HURACAN LP610-4 Coupe/1.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 LAMBORGHINI HURACAN LP610-4 Coupe/2.jpg'); background-size: cover; background-position: center;"></div>
+            <div class="carousel-slide" style="min-width: 100%; height: 100%; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/images/2017 LAMBORGHINI HURACAN LP610-4 Coupe/3.jpg'); background-size: cover; background-position: center;"></div>
         </div>
         <div class="hero-content" style="position: relative; z-index: 1;">
             <h1 class="display-1">Engineered Perfection.</h1>

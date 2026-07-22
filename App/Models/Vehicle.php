@@ -43,7 +43,7 @@ class Vehicle extends Model {
                 ]
             ],
             [
-                'title' => '🔥 2025 BMW M5 V8 Hybrid 🔥',
+                'title' => '2025 BMW M5 V8 Hybrid',
                 'price' => 'R 2,999,999',
                 'spec' => '535kW Combined | M Sport Package',
                 'image' => '/assets/images/2025 BMW M5 V8 Hybrid/1.jpg',
